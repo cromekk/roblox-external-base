@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{a1b2c3d0-0001-4000-a000-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memory">
+      <UniqueIdentifier>{a1b2c3d0-0001-4000-a000-000000000010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk">
+      <UniqueIdentifier>{a1b2c3d0-0001-4000-a000-000000000011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\rbx">
+      <UniqueIdentifier>{a1b2c3d0-0001-4000-a000-000000000021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\offsets">
+      <UniqueIdentifier>{a1b2c3d0-0001-4000-a000-000000000022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sdk\vec">
+      <UniqueIdentifier>{a1b2c3d0-0001-4000-a000-000000000023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render">
+      <UniqueIdentifier>{a1b2c3d0-0001-4000-a000-000000000012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\overlay">
+      <UniqueIdentifier>{a1b2c3d0-0001-4000-a000-000000000031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\render\menu">
+      <UniqueIdentifier>{a1b2c3d0-0001-4000-a000-000000000032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features">
+      <UniqueIdentifier>{a1b2c3d0-0001-4000-a000-000000000013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\esp">
+      <UniqueIdentifier>{a1b2c3d0-0001-4000-a000-000000000041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib">
+      <UniqueIdentifier>{a1b2c3d0-0001-4000-a000-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib\imgui">
+      <UniqueIdentifier>{a1b2c3d0-0001-4000-a000-000000000002}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">                   <Filter>src</Filter> </ClCompile>
+    <ClCompile Include="src\memory\mem.cpp">             <Filter>src\memory</Filter> </ClCompile>
+    <ClCompile Include="src\sdk\rbx\rbx.cpp">            <Filter>src\sdk\rbx</Filter> </ClCompile>
+    <ClCompile Include="src\render\overlay\overlay.cpp"> <Filter>src\render\overlay</Filter> </ClCompile>
+    <ClCompile Include="src\features\esp\esp.cpp">       <Filter>src\features\esp</Filter> </ClCompile>
+    <ClCompile Include="src\render\menu\menu.cpp">       <Filter>src\render\menu</Filter> </ClCompile>
+
+    <ClCompile Include="src\lib\imgui\imgui.cpp">            <Filter>src\lib\imgui</Filter> </ClCompile>
+    <ClCompile Include="src\lib\imgui\imgui_draw.cpp">       <Filter>src\lib\imgui</Filter> </ClCompile>
+    <ClCompile Include="src\lib\imgui\imgui_tables.cpp">     <Filter>src\lib\imgui</Filter> </ClCompile>
+    <ClCompile Include="src\lib\imgui\imgui_widgets.cpp">    <Filter>src\lib\imgui</Filter> </ClCompile>
+    <ClCompile Include="src\lib\imgui\imgui_impl_dx11.cpp">  <Filter>src\lib\imgui</Filter> </ClCompile>
+    <ClCompile Include="src\lib\imgui\imgui_impl_win32.cpp"> <Filter>src\lib\imgui</Filter> </ClCompile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ClInclude Include="src\memory\mem.h">              <Filter>src\memory</Filter> </ClInclude>
+    <ClInclude Include="src\sdk\offsets\offsets.h">    <Filter>src\sdk\offsets</Filter> </ClInclude>
+    <ClInclude Include="src\sdk\rbx\rbx.h">            <Filter>src\sdk\rbx</Filter> </ClInclude>
+    <ClInclude Include="src\sdk\vec\vec.h">            <Filter>src\sdk\vec</Filter> </ClInclude>
+    <ClInclude Include="src\render\overlay\overlay.h"> <Filter>src\render\overlay</Filter> </ClInclude>
+    <ClInclude Include="src\features\esp\esp.h">       <Filter>src\features\esp</Filter> </ClInclude>
+    <ClInclude Include="src\render\menu\menu.h">       <Filter>src\render\menu</Filter> </ClInclude>
+
+    <ClInclude Include="src\lib\imgui\imgui.h">            <Filter>src\lib\imgui</Filter> </ClInclude>
+    <ClInclude Include="src\lib\imgui\imgui_internal.h">   <Filter>src\lib\imgui</Filter> </ClInclude>
+    <ClInclude Include="src\lib\imgui\imconfig.h">         <Filter>src\lib\imgui</Filter> </ClInclude>
+    <ClInclude Include="src\lib\imgui\imstb_rectpack.h">   <Filter>src\lib\imgui</Filter> </ClInclude>
+    <ClInclude Include="src\lib\imgui\imstb_textedit.h">   <Filter>src\lib\imgui</Filter> </ClInclude>
+    <ClInclude Include="src\lib\imgui\imstb_truetype.h">   <Filter>src\lib\imgui</Filter> </ClInclude>
+    <ClInclude Include="src\lib\imgui\imgui_impl_dx11.h">   <Filter>src\lib\imgui</Filter> </ClInclude>
+    <ClInclude Include="src\lib\imgui\imgui_impl_win32.h"> <Filter>src\lib\imgui</Filter> </ClInclude>
+  </ItemGroup>
+</Project>
